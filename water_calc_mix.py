@@ -35,6 +35,7 @@ FLOUR_PROFILES: Dict[str, HydrationProfile] = {
     "wheat_550":   HydrationProfile(65.0, 70.0, 70.0, "Reference flour for many standard breads."),
     "wheat_1050":  HydrationProfile(75.0, 76.0, 77.0, "Higher extraction typically needs more water than 550."),
     "wheat_whole": HydrationProfile(80.0, 83.0, 85.0, "Whole grain binds more water; soaking helps."),
+    "wheat_00": HydrationProfile(60.0, 62.5, 65.0, "Italian Tipo 00 (Type 00); commonly 60–65% hydration for pizza-style yeast dough."),
 
     # Spelt
     "spelt_630":   HydrationProfile(67.0, 68.0, 68.0, "Often a touch less water than wheat 550."),
@@ -47,6 +48,8 @@ ALIASES: Dict[str, str] = {
     "weizen550": "wheat_550", "weizen_550": "wheat_550", "w550": "wheat_550", "wheat550": "wheat_550",
     "weizen1050": "wheat_1050", "weizen_1050": "wheat_1050", "w1050": "wheat_1050", "wheat1050": "wheat_1050",
     "weizenvollkorn": "wheat_whole", "weizen_vollkorn": "wheat_whole", "wvk": "wheat_whole",
+    "tipo00": "wheat_00", "tipo_00": "wheat_00", "type00": "wheat_00", "wheat00": "wheat_00",
+    "weizen00": "wheat_00", "w00": "wheat_00", "00": "wheat_00",
 
     # Spelt aliases
     "dinkel630": "spelt_630", "dinkel_630": "spelt_630", "d630": "spelt_630",
