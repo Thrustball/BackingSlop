@@ -355,7 +355,7 @@ def main() -> None:
     p.add_argument(
         "--stage",
         choices=["bulk", "final", "total", "all"],
-        default="bulk",
+        default="all",
         help="Which stage time to display/target. Default: bulk. Use 'all' to print bulk+final+total.",
     )
     p.add_argument(
